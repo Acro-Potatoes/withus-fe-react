@@ -1,8 +1,9 @@
-import { CommonAPI } from '#/types/api';
+import { BASE_URL } from '#/contents/api';
+import { CommonAPI } from '#/api/type';
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 
 export const axiosInstance = axios.create({
-    baseURL: '',
+    baseURL: BASE_URL,
     headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
