@@ -10,12 +10,12 @@ const GroupList = () => {
     ];
 
     return (
-        <div className="flex h-screen flex-col items-center bg-base-300">
-            <div className="mt-3 flex grow flex-col gap-5 p-3">
+        <div className='flex h-screen flex-col items-center bg-base-300'>
+            <div className='mt-3 flex grow flex-col gap-5 p-3'>
                 {groupList.map((item, index) => (
                     <GroupItem key={index} groupItem={item} />
                 ))}
-                <button className="btn btn-square">
+                <button className='btn btn-square'>
                     <SquaresPlusIcon />
                 </button>
             </div>

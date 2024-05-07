@@ -11,8 +11,8 @@ const GroupMenuItem = ({
 }) => {
     return (
         <Link to={to}>
-            <button className="btn btn-ghost w-full justify-start text-lg font-medium">
-                <HashtagIcon className="size-4" />
+            <button className='btn btn-ghost w-full justify-start text-lg font-medium'>
+                <HashtagIcon className='size-4' />
                 {children}
             </button>
         </Link>
