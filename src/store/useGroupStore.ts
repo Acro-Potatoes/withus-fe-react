@@ -8,7 +8,7 @@ interface GroupStore {
 const useGroupStore = create<GroupStore>((set) => ({
     groupId: null,
     actions: {
-        changeGroupId: (groupId: string) => set({ groupId }),
+        changeGroupId: (groupId) => set({ groupId }),
     },
 }));
 
